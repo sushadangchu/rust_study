@@ -12,7 +12,7 @@ fn main() {
 
     vec1.push(88);
 
-    println!("{} has length {} content `{:?}`", "vec1", vec1.len(), vec1);
+    println!("{} has length {} content `{:?}`", "vec1", vec1.len(), vec1)
 }
 
 fn fill_vec(mut vec: Vec<i32>) -> Vec<i32> {

@@ -10,10 +10,10 @@
 // Put your function here!
 // fn ..... {
 fn calculate_apple_price(amount: i32) -> i32 {
-    if amount >= 40 {
-        amount
-    } else {
+    if amount <= 40 {
         amount * 2
+    } else {
+        amount
     }
 }
 

@@ -2,7 +2,7 @@
 // Make me compile! Execute `rustlings hint functions2` for hints :)
 
 fn main() {
-    call_me(10);
+    call_me(3);
 }
 
 fn call_me(num: i32) {
